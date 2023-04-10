@@ -1,0 +1,12 @@
+/Users/seojeonghyeog/VNTool/VNLibrary/VNLibrary/VNLibrary/obj/Debug/net7.0/VNLibrary.csproj.AssemblyReference.cache
+/Users/seojeonghyeog/VNTool/VNLibrary/VNLibrary/VNLibrary/obj/Debug/net7.0/VNLibrary.GeneratedMSBuildEditorConfig.editorconfig
+/Users/seojeonghyeog/VNTool/VNLibrary/VNLibrary/VNLibrary/obj/Debug/net7.0/VNLibrary.AssemblyInfoInputs.cache
+/Users/seojeonghyeog/VNTool/VNLibrary/VNLibrary/VNLibrary/obj/Debug/net7.0/VNLibrary.AssemblyInfo.cs
+/Users/seojeonghyeog/VNTool/VNLibrary/VNLibrary/VNLibrary/obj/Debug/net7.0/VNLibrary.csproj.CoreCompileInputs.cache
+/Users/seojeonghyeog/VNTool/VNLibrary/VNLibrary/VNLibrary/bin/Debug/net7.0/VNLibrary.deps.json
+/Users/seojeonghyeog/VNTool/VNLibrary/VNLibrary/VNLibrary/bin/Debug/net7.0/VNLibrary.dll
+/Users/seojeonghyeog/VNTool/VNLibrary/VNLibrary/VNLibrary/bin/Debug/net7.0/VNLibrary.pdb
+/Users/seojeonghyeog/VNTool/VNLibrary/VNLibrary/VNLibrary/obj/Debug/net7.0/VNLibrary.dll
+/Users/seojeonghyeog/VNTool/VNLibrary/VNLibrary/VNLibrary/obj/Debug/net7.0/refint/VNLibrary.dll
+/Users/seojeonghyeog/VNTool/VNLibrary/VNLibrary/VNLibrary/obj/Debug/net7.0/VNLibrary.pdb
+/Users/seojeonghyeog/VNTool/VNLibrary/VNLibrary/VNLibrary/obj/Debug/net7.0/ref/VNLibrary.dll

@@ -6,4 +6,18 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Script\" />
+    <None Remove="Command\" />
+    <None Remove="Script\ScriptCommand\" />
+    <None Remove="VNParser\" />
+    <None Remove="VNUtil\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Script\" />
+    <Folder Include="Command\" />
+    <Folder Include="Script\ScriptCommand\" />
+    <Folder Include="VNParser\" />
+    <Folder Include="VNUtil\" />
+  </ItemGroup>
 </Project>
