@@ -7,14 +7,14 @@ namespace VNLibrary.Script
 	{
 		private string speaker = "_ignore_";
 		private string message = string.Empty;
-		private List<ScriptCommad> commandList = new List<ScriptCommad>();
+		private List<ScriptCommand> commandList = new List<ScriptCommand>();
 
 		private int _commandIndex = 0;
 
 		public string Speaker => speaker;
 		public string Message => message;
 
-		public VNScript(string _Speaker, string _Message, List<ScriptCommad> _ScriptCommand)
+		public VNScript(string _Speaker, string _Message, List<ScriptCommand> _ScriptCommand)
 		{
 			// default script type
 
@@ -23,23 +23,18 @@ namespace VNLibrary.Script
 			commandList = _ScriptCommand;
 		}
 
-		public VNScript(List<ScriptCommad> _ScriptCommand)
+		public VNScript(List<ScriptCommand> _ScriptCommand)
 		{
 			// effect script type
-
 			commandList = _ScriptCommand;
 		}
 
-		public ScriptCommad NextCommand()
+		public void ExecuteCommands()
 		{
-			if (commandList == null || commandList.Count <= 0) return new ScriptEndCommand();
-			if (_commandIndex >= commandList.Count) return new ScriptEndCommand();
-
-            ScriptCommad nextCommand = commandList[_commandIndex];
-
-			_commandIndex++;
-
-			return nextCommand;
+			foreach (ScriptCommand command in commandList)
+			{
+				command.Excute();
+			}
 		}
 
         #region interface implements

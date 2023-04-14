@@ -3,12 +3,12 @@ using VNLibrary.Command;
 
 namespace VNLibrary.Script
 {
-	public abstract class ScriptCommad : VNCommand
+	public abstract class ScriptCommand : VNCommand
 	{
 		public virtual bool ScriptBreak => false;
 	}
 
-    public class ScriptEndCommand : ScriptCommad
+    public class ScriptEndCommand : ScriptCommand
     {
         public override bool ScriptBreak => true;
 

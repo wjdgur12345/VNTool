@@ -12,6 +12,7 @@
     <None Remove="Script\ScriptCommand\" />
     <None Remove="VNParser\" />
     <None Remove="VNUtil\" />
+    <None Remove="Episode\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Script\" />
@@ -19,5 +20,6 @@
     <Folder Include="Script\ScriptCommand\" />
     <Folder Include="VNParser\" />
     <Folder Include="VNUtil\" />
+    <Folder Include="Episode\" />
   </ItemGroup>
 </Project>

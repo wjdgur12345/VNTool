@@ -5,27 +5,12 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="VNLibrary/Script/VNChapter.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="VNLibrary/Episode/EpisodeBase.cs">
     <Files>
-      <File FileName="VNLibrary/Script/VNScript.cs" Line="49" Column="11" />
-      <File FileName="VNLibrary/VNUtil/VNUtil_Parse.cs" Line="15" Column="4" />
-      <File FileName="VNLibrary/Script/Command.cs" Line="4" Column="36" NotebookId="1" />
-      <File FileName="VNLibrary/Script/VNChapter.cs" Line="12" Column="4" NotebookId="1" />
-      <File FileName="VNLibrary/Script/ScriptProvider.cs" Line="6" Column="44" NotebookId="1" />
-      <File FileName="VNLibrary/Script/ScriptCommand/ScriptCommad.cs" Line="11" Column="49" NotebookId="1" />
-      <File FileName="VNLibrary/VNParser/IVNParsable.cs" Line="6" Column="22" NotebookId="1" />
+      <File FileName="VNLibrary/Episode/Episode.cs" />
+      <File FileName="VNLibrary/Script/ScriptCommand/ScriptCommand.cs" />
+      <File FileName="VNLibrary/Episode/EpisodeBase.cs" Line="17" Column="1" />
+      <File FileName="VNLibrary/Command/VNCommand.cs" Line="13" Column="1" NotebookId="1" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="VNLibrary" expanded="True">
-            <Node name="VNLibrary" expanded="True">
-              <Node name="VNParser" expanded="True" />
-              <Node name="VNUtil" expanded="True" />
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
 </Properties>
