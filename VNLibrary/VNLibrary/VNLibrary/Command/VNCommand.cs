@@ -1,5 +1,5 @@
 ﻿using System;
-namespace VNLibrary.Command
+namespace VNLibrary
 {
     public abstract class VNCommand
     {

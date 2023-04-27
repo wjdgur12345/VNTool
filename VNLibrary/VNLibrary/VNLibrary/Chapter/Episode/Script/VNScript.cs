@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text;
 
-namespace VNLibrary.Script
+namespace VNLibrary
 {
 	public class VNScript : IVNParsable
 	{
@@ -42,6 +42,11 @@ namespace VNLibrary.Script
 		public string Stringify()
 		{
 			return VNUtil.ScriptStringity(speaker, message);
+		}
+
+		public object Parse(string _SerializedData)
+		{
+			return null;
 		}
 
         #endregion

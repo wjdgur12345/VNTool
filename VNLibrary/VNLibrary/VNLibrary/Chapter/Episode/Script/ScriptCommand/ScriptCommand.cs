@@ -1,7 +1,6 @@
 ﻿using System;
-using VNLibrary.Command;
 
-namespace VNLibrary.Script
+namespace VNLibrary
 {
 	public abstract class ScriptCommand : VNCommand
 	{
