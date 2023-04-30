@@ -7,19 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Command\" />
-    <None Remove="VNParser\" />
-    <None Remove="VNUtil\" />
-    <None Remove="Chapter\" />
-    <None Remove="Chapter\Episode\" />
-    <None Remove="Chapter\Episode\Script\" />
+    <None Remove="Classes\" />
+    <None Remove="Classes\Util\" />
+    <None Remove="Classes\Episode\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Command\" />
-    <Folder Include="VNParser\" />
-    <Folder Include="VNUtil\" />
-    <Folder Include="Chapter\" />
-    <Folder Include="Chapter\Episode\" />
-    <Folder Include="Chapter\Episode\Script\" />
+    <Folder Include="Classes\" />
+    <Folder Include="Classes\Util\" />
+    <Folder Include="Classes\Episode\" />
   </ItemGroup>
 </Project>
