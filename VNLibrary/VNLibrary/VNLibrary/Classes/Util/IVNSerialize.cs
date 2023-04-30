@@ -6,7 +6,8 @@ namespace VNLibrary.Util
     /// </summary>
     public interface IVNSerialize
 	{
-        
+        string Setingify();
+
 	}
 }
 

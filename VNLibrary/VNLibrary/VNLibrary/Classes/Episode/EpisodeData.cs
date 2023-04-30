@@ -1,67 +1,38 @@
 ﻿using System;
-
 namespace VNLibrary
 {
-	public abstract class EpisodeDataBase
+	public abstract class EpisodeData
 	{
-		public abstract string EventType { get; }
-		public abstract string Content { get; }
-	}
+		protected List<StoryEventBase> storyEventList = new List<StoryEventBase>();
+		protected int storyIndex = 0;
 
-	public class BattleEpisodeData : EpisodeDataBase
-	{
-        public override string EventType => "Battle";
-        public override string Content => _targetContent;
-
-        private string _targetContent = string.Empty;
-
-		public BattleEpisodeData(string _Target)
+		public bool HasNaxt
 		{
-			_targetContent = _Target;
+			get
+			{
+				if (storyEventList == null || storyEventList.Count <= 0) return false;
+				if (storyEventList.Count <= storyIndex) return false;
+
+				return true;
+			}
 		}
-    }
 
-    public class StoryEpisodeData : EpisodeDataBase
-    {
+		public StoryEventBase NextEvent
+		{
+			get
+			{
+				if (!HasNaxt) return null;
+				return storyEventList[storyIndex];
+			}
+		}
 
-        public override string EventType => "Story";
-        public override string Content => _targetContent;
-
-        private string _targetContent = string.Empty;
-
-        public StoryEpisodeData(string _Target)
-        {
-            _targetContent = _Target;
+		public EpisodeData(string _PlainText)
+		{
+			ConversionFromText(_PlainText);
         }
-    }
 
-    public class StoryAndBattleEpisodeData : EpisodeDataBase
-    {
-
-        public override string EventType => "StoryAndBattle";
-        public override string Content => _targetContent;
-
-        private string _targetContent = string.Empty;
-
-        public StoryAndBattleEpisodeData(string _Target)
-        {
-            _targetContent = _Target;
-        }
-    }
-
-    public class RewordEpisodeData : EpisodeDataBase
-    {
-
-        public override string EventType => "Reword";
-        public override string Content => _targetContent;
-
-        private string _targetContent = string.Empty;
-
-        public RewordEpisodeData(string _Target)
-        {
-            _targetContent = _Target;
-        }
-    }
+		public abstract void ConversionFromText(string _PlainText);
+	}
 
 }
 
